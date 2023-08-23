@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8081
-ADD target/webapp-deploy.jar webapp-deploy.jar
-ENTRYPOINT [ "java","-jar","/webapp-deploy.jar" ]
+ADD target/demo-deploy.jar demo-deploy.jar
+ENTRYPOINT [ "java","-jar","/demo-deploy.jar" ]
